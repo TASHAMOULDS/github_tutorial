@@ -1,0 +1,210 @@
+﻿/*Import reset.css*/
+
+/*Primary color(purple) hexadecimal value = 270345
+  Pink hexadecimal value = 4e0035
+  Blue Hexadecimal = 0c0747
+  Color scheme: analogic
+  Angle: 35 degrees
+  Color scheme link: http://paletton.com/#uid=54x0y0kFccSvg88DJ9VBOjtEyqu
+
+*/
+@import url(reset.css);
+
+html {
+    background-color: #DCDCDC; /*grey background*/
+    color: black; /*black text*/
+    font-family: 'Lucida Console';
+    font-size: 62.5%; /*10px, based on browser default 16 px*/
+}
+
+body {
+    line-height: 1.4;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 5rem;
+    color: #DCDCDC;
+    text-align: center;
+    clear: both;
+    padding: 0.7rem 1.5rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #270345;
+    text-align: center;
+}
+
+    h2 a {
+        font-size: inherit;
+    }
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+a {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+/*WebPage Layout*/
+#WebPage {
+    width: 960px;
+    margin: 1.5rem auto;
+}
+/*banner*/
+#banner {
+    background-color: #4e0035;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333333;
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 1.5rem;
+}
+
+    #banner a#HallWay {
+        float: left;
+    }
+
+        #banner a#HallWay img {
+            height: 127px;
+            width: 400px;
+            border-radius: 20px;
+        }
+
+    #banner a#PurpleCoke {
+        float: right;
+    }
+
+        #banner a#PurpleCoke img {
+            height: 127px;
+            width: 150px;
+            border-radius: 20px;
+        }
+
+    #banner nav {
+        background-color: #0c0747;
+        border-radius: 10px;
+        padding: 0.5rem 0;
+        overflow: hidden;
+    }
+
+        #banner nav ul {
+            text-align: center;
+        }
+
+        #banner nav li {
+            display: inline;
+        }
+
+        #banner nav a {
+            color: #a1006d; /*this is a brighter version of the pink color that was mentioned in the commments, it was generated when I generated my pallete*/
+            padding: 1.0rem 2.0rem;
+        }
+
+            #banner nav a:hover {
+                background-color: #1a0e93; /*this is a brighter version of the blue color that was mentioned in the comments, it was generated when I generated my pallete*/
+            }
+
+#Wrapper {
+    background-color: #ECECEC;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #270345;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+    #Wrapper h2 {
+        padding: 1.0rem 0;
+    }
+
+#SideLinks {
+    width: 20%;
+    float: left;
+}
+
+    #SideLinks ul {
+        text-align: center;
+    }
+
+    #SideLinks li {
+        padding-bottom: 1rem;
+    }
+
+    #SideLinks a {
+        color: #1e0335; /*darker shade of purple from pallete*/
+    }
+
+        #SideLinks a:hover {
+            color: #a1006d; /*bright pink from pallete*/
+            text-decoration: underline;
+        }
+
+#Posts {
+    width: 80%;
+    float: right;
+    background-color: white;
+}
+
+    #Posts a {
+        color: #4f078e; /*purple from pallet*/
+    }
+
+        #Posts a:hover {
+            color: #7f0de3; /*light purple*/
+            text-decoration: underline;
+        }
+
+    #Posts p {
+        padding: 0.5rem;
+    }
+
+    #Posts hr {
+        border-color: #eeeeee;
+        border-style: ridge;
+    }
+
+    #Posts footer {
+        padding: 0.5rem;
+    }
+
+#Footer {
+    background-color: #0c0747;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #333333;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+    #Footer #gilles {
+        float: left;
+    }
+    #gilles a img {
+        height: 70px;
+        width: 100px;
+    }
+
+    #Footer #Moulds_Background {
+        float: right;
+    }
+
+    #Moulds_Background a img {
+        height: 70px;
+        width:150px;
+    }
+    #Footer p{
+        clear:both;
+        padding-top:1rem;
+        text-align:center;
+        font-size:1rem;
+        font-style:italic;
+        color:#ECECEC;
+    }
